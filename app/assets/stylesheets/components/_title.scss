@@ -1,0 +1,19 @@
+.title {
+  position: absolute;
+  font-size: 80px;
+  color:#F4F4F4;
+  font-size: 120px;
+  z-index:20;
+  letter-spacing: 40px;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+.sub-title{
+  font-size: 60px;
+  letter-spacing: 5px;
+  text-align: center;
+}
