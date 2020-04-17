@@ -4,7 +4,13 @@
 @import "navbar";
 @import "carousel";
 @import "title";
+@import "buttons";
+@import "cards";
 
 body {
   font-family: 'Roboto', sans-serif;
+  background-image: url("http://ravores.jwsuperthemes.com/wp-content/uploads/2018/10/h1-bg3.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
 }
