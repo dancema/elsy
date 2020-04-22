@@ -1,12 +1,12 @@
 .main {
   position: absolute;
-  text-shadow: 1px 1px 1px #000;
   z-index:20;
   color:#F4F4F4;
   top:50%;
   left:50%;
   transform: translate(-50%, -50%);
   text-align: center;
+
 }
 
 .title {
@@ -20,4 +20,11 @@
   font-size: 60px;
   letter-spacing: 5px;
   text-align: center;
+}
+
+.main a{
+  margin: 0px;
+  font-size: 16px;
+  letter-spacing: 1px;
+
 }
