@@ -8,9 +8,9 @@
     <div class="carousel-inner">
       <nav class="stroke">
         <ul class="d-block">
-            <li><a href="#">Notre cuisine</a></li>
-            <li><a href="#">Notre équipe</a></li>
-            <li><a href="#">Nos coordonnées</a></li>
+            <li><a href="#kitchen">Notre cuisine</a></li>
+            <li><a href="#team">Notre équipe</a></li>
+            <li><a href="#order">Contact</a></li>
         </ul>
       </nav>
 
@@ -21,7 +21,7 @@
         <div class="sub-title">
           Paris
         </div>
-          <a href="#" class="btn btn-ghost mt-5">Commandez en ligne</a>
+          <a href="#order" class="btn btn-ghost mt-5">Commandez en ligne</a>
       </div>
 
 
@@ -41,7 +41,7 @@
 
 
 
-<section class="c-split c-split--vcenter revealable">
+<section id="kitchen" class="c-split c-split--vcenter revealable">
 
 
   <div class="c-split__col ">
@@ -78,7 +78,7 @@
 </section>
 
 
-<section class="c-split c-split--vcenter c-split--alternate revealable">
+<section id="team" class="c-split c-split--vcenter c-split--alternate revealable">
 
 
   <div class="c-split__col ">
@@ -86,29 +86,13 @@
         <div class="c-split__content content">
           <h2 class="h2 c-split__heading">Notre équipe</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo architecto veritatis accusantium, soluta impedit sapiente veniam natus doloremque sit, velit quis commodi. Eum ab fugit accusantium neque optio, fuga sed?</p>
-
-
-
-
-
-
         </div>
     </div>
   </div>
-
-
-
   <div class="c-split__col c-split__col--empty">
     <div class="c-split__col-inner">
-        <div class="c-split__image"
-
-
-
-
-
-    alt=""
-
- style="background-image: url('https://images.getbento.com/accounts/c7b49cc88d1bb3823c4129b95e9fcb71/media/images/48214Our_food.jpg?fit=max&w=1800&auto=format,compress');"></div>
+        <div class="c-split__image" alt=""
+        style="background-image: url('https://images.getbento.com/accounts/c7b49cc88d1bb3823c4129b95e9fcb71/media/images/48214Our_food.jpg?fit=max&w=1800&auto=format,compress');"></div>
     </div>
   </div>
 
@@ -116,62 +100,61 @@
 
 
 
-<section class="c-one-col--text content container revealable revealed">
+<section id="order" class="c-one-col--text content container revealable revealed mb-5">
   <h2>Commandez en ligne</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae quisquam quae itaque repudiandae? Vel obcaecati, porro excepturi. Optio, repellat! Totam eaque rem deleniti molestiae commodi consequatur possimus laudantium numquam saepe!</p>
   <div class="container">
     <div class="row">
+
       <div class="col-md-6">
-          Deliveroo
           <img src="https://i0.wp.com/www.grapheine.com/wp-content/uploads/2016/09/new-logo-deliveroo.gif?fit=1950%2C1200&quality=90&strip=all&ssl=1" class="card-img-top" alt="">
           <a href="#" class="btn btn-ghost dark">Commander</a>
       </div>
       <div class="col-md-6">
-        Uber Eats
         <img src="https://upload.wikimedia.org/wikipedia/commons/2/23/Uber_eats_logo_2017_06_22.jpg" class="card-img-top" alt="">
         <a href="#" class="btn btn-ghost dark">Commander</a>
       </div>
     </div>
   </div>
+
 </section>
 
 
 
 
 
-<div class="container">
-  <div class="kitchen">
-    <div class="card">
 
-      <h2>Notre cuisine</h2>
-      <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit perferendis pariatur
-      quidem nesciunt distinctio culpa beatae non alias soluta, et exercitationem, eligendi sequi.
-      Corporis ea iure est, nam sit soluta!
+
+
+<footer class="pt-5 pb-5">
+  <div class="container d-flex justify-content-between">
+    <div class="info">
+       <p class="text-center">
+        <em><strong>Contact</strong></em>
+        <br />206-555-7890<br />
+        123 Fake Street<br />
+        Seattle, WA 00000<br />
+        <a href="mailto:example@example.com">example@example.com</a>
       </p>
+    </div>
+
+    <div class="d-flex flex-column align-items-center">
+      <div class="title-footer">ELSY</div>
+      <div class="social">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-instagram"></i>
+      </div>
 
     </div>
 
-    <div class="food">
+    <div>
+      <p class="text-center">
+        <em><strong>Hours</strong></em><br />
+        Mon–Wed &nbsp;6–11<br />
+        Thu–Sat &nbsp;4–12<br />
+        Sun &nbsp;3–10<br />
+        <a href="/visit-tremont">Make a Reservation</a></p>
     </div>
   </div>
 
-  <div class="commande">
-    <div class="text-center">Commandez</div>
-
-    <div class='d-flex align-items-center justify-content-around'>
-      <div class="card" style="width: 18rem;">
-         <div class="card-body">
-          <p class="card-text">Deliveroo</p>
-        </div>
-      </div>
-
-      <div class="card" style="width: 18rem;">
-         <div class="card-body">
-          <p class="card-text">Uber Eats</p>
-        </div>
-      </div>
-    </div>
-
-
-  </div>
-</div>
+</footer>
