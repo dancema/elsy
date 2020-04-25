@@ -9,17 +9,18 @@
 
 }
 
+
+
+
 .title {
   letter-spacing: 40px;
-  font-size: 80px;
-
   font-size: 120px;
+  padding-left:40px;
 }
-
 .sub-title{
-  font-size: 60px;
-  letter-spacing: 5px;
-  text-align: center;
+font-size: 60px;
+letter-spacing: 5px;
+padding-left:5px;
 }
 
 .main a{
@@ -28,3 +29,27 @@
   letter-spacing: 1px;
 
 }
+
+
+@media (max-width: 768px){
+  .title {
+    letter-spacing: 30px;
+    font-size: 80px;
+    padding-left:30px;
+  }
+  .sub-title{
+    font-size: 30px;
+    letter-spacing: 5px;
+    padding-left:5px;
+  }
+
+  .main{
+    position: absolute;
+    top:55%;
+    left:50%;
+    transform: translate(-50%, -45%);
+    text-align: center;
+  }
+}
+
+
